@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="-UA=CompatiblXe" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6efe06b4f7.js" crossorigin="anonymous"></script>
+</head>  
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Fun Facts</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>I LOVE YOU 3000</p>
+            <h1>Hi, I'm<span> Maryo</span><br>Velasco </h1>
+        </div>
+    </div>
+</div>
+    <!-- -------------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/baby.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p> Cute Padin</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Favorite Songs</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Drake</span><br>Not You Too</li>
+                            <li><span>Tyler The Creator</span><br>See You Again</li>
+                            <li><span>Taylor Swift</span><br>All Too Well (10 Minute Version)</li>
+                            <li><span>Luke Chiang</span><br>Used to Me</li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Basketball</span><br>Curry & Poole</li>
+                            <li><span>STEM</span><br>Stressful</li>
+                            <li><span>Suicideboys</span><br>Escape from BABYLON</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2006</span><br>Cutie</li>
+                            <li><span>Spiderman</span><br>Iron Man</li>
+                            <li><span>LIL PEEP</span><br>SACRED HEART</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------services------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <h2>I am Iron Man</h2>
+                <p>---------------------------</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-heart"></i>
+                <h2>HART HART</h2>
+                <p>---------------------------</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-star"></i>
+                <h2>STAR</h2>
+                <p>---------------------------</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-brain"></i>
+                <h2>OMSIM</h2>
+                <p>---------------------------</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>  
+</div>
+<!-- ------------FACTS ABOUT MY IDOL----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">FACTS ABOUT MY IDOL</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png.jpg">
+                <div class="layer">
+                    <h3>TONY STARK</h3>
+                    <p>is the financially secure son of Howard Stark, an entrepreneur who makes weapons, and Maria Stark. 
+                        Tony was born a genius with a knowledgeable interest in technology and inventions. 
+                        He naturally followed in his father's footsteps and, upon the untimely passing of his parents, inherited Stark Industries.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png.jpg">
+                <div class="layer">
+                    <h3>J.A.R.V.I.S.</h3>
+                    <p>(Just A Rather Very Intelligent System) is an AI that functions as Tony Stark's assistant, 
+                        running and taking care of all the internal systems of Stark's buildings and the Iron Man suits.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>E.D.I.T.H</h3>
+                    <p>is an A.I. created by Tony Stark that was given security, defense and tactical intelligence properties, 
+                        being capable of accessing the Stark Industries' global satellite network and hack into nearly any computerized device.  </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ------------------contact-------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> velascomaryojose08@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 09392063134</p>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/maryojose.velasco"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://twitter.com/robitusinn"><i class="fa-brands fa-twitter-square"></i></a>
+                  <a href="https://www.instagram.com/mjvelascoo_/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://open.spotify.com/user/f358pn70d0wlqu0ifehyxpsyp?si=b600ad87d86d4f1e"><i class="fa-brands fa-spotify"></i></a>
+                </div>
+                <a href="images/ironmanbts.jpg" download class="btn btn2">ironman photo</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Mj. Made with Love <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu =document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL ='https://script.google.com/macros/s/AKfycbwxX39lqFUYdFJSe89Uir8Vpu33x0BxB-pnrbh221U0E4GhWFI-AML76HzECOGjpKhbRA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
